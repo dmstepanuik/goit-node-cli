@@ -6,7 +6,11 @@
   "scripts": {
     "start": "node index.js",
     "start:dev": "nodemon index.js",
-    "contacts:dev": "nodemon contacts.js"
+    "contacts:dev": "nodemon contacts.js",
+    "command:1": "node index.js --action list",
+    "command:2": "node index.js --action get --id 5",
+    "command:3": "node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22",
+    "command:4": "node index.js --action remove --id=3"
   },
   "repository": {
     "type": "git",
