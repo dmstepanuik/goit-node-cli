@@ -17,6 +17,8 @@ async function invokeAction({ action, id, name, email, phone }) {
     case "list":
       const contacts = await contactsModule.listContacts();
       console.table(contacts);
+      console.log(contacts)
+      console.log('Hello table')
       break;
 
     case "get":
